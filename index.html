@@ -1388,66 +1388,21 @@ div.post-inner tr, div.post-inner td, div.post-inner th {
 	<div class="entry-header-inner section-inner medium">
 
 		<h1 class="entry-title">Tank Encyclopedia</h1>
-		<p>Your text can be inserted here, for example: Welcome to the world of tanks!</p>
 	</div><!-- .entry-header-inner -->
 
 </header><!-- .entry-header -->
 
 	<div class="post-inner  ">
 
-		<div class="entry-content"></div>
+		<div class="entry-content">
 
-<p><script>
-/*This code puts links on the homepage gallery's images to make it more similar to the original slider thing we had. Contact Jeff_G if issues arise*/
-var tec_clicked = false;
-function linkUpSliderImages() {
-  try {
-      var titleLinksWithImageLinks = document.querySelectorAll(".wp-spaios-img-link~.wp-spaios-content-wrp .wp-spaios-title a");
-      var titleLinks = [];
-      titleLinksWithImageLinks.forEach(l => titleLinks.push(l.href));
-      var images = document.querySelectorAll("a.wp-spaios-img-link img");
-      for(var i = 0; i < images.length; i++) {
-          const link = titleLinks[i]; //required to be external to the callback
-          images[i].addEventListener("click", (e) => {
-              if(!tec_clicked) {
-                  tec_clicked = true;
-                  e.preventDefault();
-                  window.open(link, "_blank");
-                  setTimeout(() => {
-                      tec_clicked = false;
-                  }, 500);
-              }
-          });
-      }
-  }
-  catch(e) {
-    // ignore errors
-    console.error(e);
-  }
-}
-document.querySelector(".swiper-wrapper").addEventListener("mousedown", linkUpSliderImages); //required for mobile compatability (gallery sections are destroyed and re-created)
-</script></p>
+
 <hr />
 <div style="background-color: #000000b3;" align="center">
 <p style="color: #f6dd95;"><strong>Tank Encyclopedia<small>®</small>: The destination for tank enthusiasts since 2014</strong></p>
 </div>
 <div>Tank Encyclopedia is the place to learn about the history of armored vehicles, from their early inspirations and pioneers to the latest main battle tanks. Our painstakingly researched articles cover many nations and all eras of armor development, accompanied by our beautiful and iconic illustrations. We cover a wide swathe of armored vehicle designs ranging from bridge-layers and engineering vehicles, to tank destroyers and armored personnel carriers. You can also find articles on soft-skinned vehicles, anti-tank weaponry, tactics, battles, and technology.</div>
-<div style="margin-top: 15px;">Tank Encyclopedia continues to be a work-in-progress largely carried out by volunteers. As a reader, you can help to improve our site. If you spot something wrong, please let us know. If you feel something is missing, please add it to our <a class="coloredLink" href="https://docs.google.com/spreadsheets/d/1p0Ll9TITGDiF9_fdS-tv1797JBs0_-pB70ReE_kIRkE/edit#gid=1911430820">Public Suggestion List</a>. And please, support us! <span style="display: inline-block; padding-bottom: 5px;"><a href="https://www.patreon.com/tankartfund"> <img decoding="async" style="max-width: 25px; height: 15px;" src="images/patreon.svg" alt="patreon" /> </a></span> <span style="display: inline-block;"><a href="https://www.paypal.com/paypalme/tankencyclopedia"> <img decoding="async" style="max-width: 25px; height: 15px;" src="images/paypal.svg" alt="paypal" /> </a></span></div>
 <hr />
-<h3>The Four Eras We Cover:</h3>
-<p><a class="coloredLink" title="ww1 era tanks and armoured cars" href="/ww1-tanks/"><img decoding="async" class="alignleft size-medium" src="/static/images/ww1.gif" alt="ww1 era tanks and armoured cars" width="250" /> <strong>WW1 &#8211; Mud, Barbed Wire, and Trenches:</strong></a> The United Kingdom and France started development of tanks in order to break through enemy lines. However, many pioneers had envisioned the use of armored vehicles in the decades prior to the Great War. Soon after its introduction, the tank quickly became a killing machine integrated into combined arms operations.</p>
-<p><a class="coloredLink" href="/world-war-two-tanks/"><img decoding="async" class="alignright size-medium" src="/static/images/ww2.gif" alt="WW2 Tanks" width="250" /><strong>WW2 &#8211; The Tank Goes Global:</strong></a> The Interwar period saw the tank go on a worldwide tour, from Bolivia to China, every corner of the globe and all seven continents felt the tread of heavy armor. Even so, many were unconvinced by this new weapon of war. World War Two would change these perceptions, and see tanks used in unprecedented numbers across all theaters of war.</p>
-<p><a class="coloredLink" href="/cold-war-tanks-php/"><img decoding="async" class="alignleft size-medium" src="/static/images/coldwar.gif" alt="Cold war tanks and AFVs" width="250" /><strong>Cold War &#8211; East vs West:</strong></a> In a period dominated by nuclear weapons, two opposing superpowers led to the splitting of the world into East and West. Although the USA and USSR never fought each other directly, almost all proxy wars of the period saw extensive usage of their tanks.</p>
-<p><a class="coloredLink" href="/modern-tanks/"><img decoding="async" class="alignright size-medium" src="/static/images/moderntanks.gif" alt="modern tanks and AFVs" width="250" /><strong>Modern Era &#8211; Are Tanks Still Relevant?:</strong></a> Despite numerous prophets heralding the demise of the tank, armor is still an important part of all the world’s militaries. The modern battlefield shows no signs of this changing soon, with the development of tanks continuing to adapt to it.</p>
-<hr />
-<div align="center" data-aaad='true' data-aa-adunit='/22247219933/TNKE_970x90v_3'></div>
-<div style="background-color: #6e7653;" align="center">
-<p style="color: #f6dd95;"><strong>⚠ About Illustrations on this site:</strong> You are free to use and share tank illustrations from this site for <strong>personal use only</strong>. For any <a style="color: #f6dd95;" href="https://tanks-encyclopedia.com/tanks-illustrations/licencing/">commercial use</a>, including on YouTube (since most videos run ads) please contact us via the <a style="color: #f6dd95;" href="https://tanks-encyclopedia.com/contact-us">contact form</a>. Tank Encyclopedia can offer licenses for one-time use or global licensing for larger, long-term use.</p>
-</div>
-<div style="max-width: 70%;">
-<h3>Featuring</h3>
-<p><a href="/posters/"><img decoding="async" class="responsive" src="/static/images/merchandise.gif" alt="Merchandise" /></a><a href="https://payhip.com/TankEncyclopedia" target="_blank" rel="noopener noreferrer"><img decoding="async" src="static/images/mag.gif" alt="review" width="290" height="220" /></a><a href="/posters/book-shop/" target="_blank" rel="noopener noreferrer"><img decoding="async" class="responsive" src="static/images/books.gif" alt="Books" /></a><a href="/meet-the-team/"><img decoding="async" class="responsive" src="static/images/team.gif" alt="Meet The Team" /></a><a href="https://gunjigraphics.com/product-category/tank-encyclopedia/"><img decoding="async" src="static/images/merch.gif" alt="" width="290" height="220" /></a><a href="https://tank-afv.com"><img decoding="async" src="/static/images/archives.gif" alt="archives" width="290" height="220" /></a></p>
-</div>
 
 </div>
 </div>
