@@ -1,56 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Simple Website</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-	<header>
-		<nav class="navbar">
-			<div class="logo">Simple Website</div>
-			<ul class="nav-links">
-				<li><a href="#home">Home</a></li>
-				<li class="dropdown">
-					<a href="#about" class="dropbtn">About</a>
-					<div class="dropdown-content">
-						<a href="#team">Our Team</a>
-						<a href="#history">History</a>
-						<a href="#mission">Mission</a>
-					</div>
-				</li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+<script src="search.js"></script>
 
-	<section id="search">
-		<form>
-			<input type="text" placeholder="Search..." name="search">
-			<button type="submit">Search</button>
-		</form>
-	</section>
+<header>
+	<nav class="navbar">
+		<div class="logo">Simple Website</div>
+		<ul class="nav-links">
+			<li><a href="#home">Home</a></li>
+			<li class="dropdown">
+				<a href="#about" class="dropbtn">About</a>
+				<div class="dropdown-content">
+					<a href="#team">Our Team</a>
+					<a href="#history">History</a>
+					<a href="#mission">Mission</a>
+				</div>
+			</li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
 
-	<main>
-		<section id="home">
-			<h2>Home</h2>
-			<p>Welcome to the homepage of this simple website.</p>
-		</section>
-
-		<section id="about">
-			<h2>About</h2>
-			<p>This is a simple website created as an example.</p>
-		</section>
-
-		<section id="contact">
-			<h2>Contact</h2>
-			<p>Feel free to reach out via email at example@example.com.</p>
-		</section>
-	</main>
-
-	<footer>
-		<p>&copy; 2023 Simple Website. All rights reserved.</p>
-	</footer>
-</body>
-</html>
+<!-- Search Bar -->
+<div class="search-container">
+	<input type="text" id="search-bar" placeholder="Search...">
+	<ul id="search-results"></ul>
+</div>
